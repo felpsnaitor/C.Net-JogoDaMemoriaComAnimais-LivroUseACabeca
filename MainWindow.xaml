@@ -1,0 +1,43 @@
+﻿<Window x:Class="JogoDosAnimais.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JogoDosAnimais"
+        mc:Ignorable="d"
+        Title="Procurando os animais" Height="450" Width="400">
+    <Grid x:Name="mainGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="84*"/>
+            <ColumnDefinition Width="81*"/>
+            <ColumnDefinition Width="75*"/>
+            <ColumnDefinition Width="80*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="85*"/>
+            <RowDefinition Height="71*"/>
+            <RowDefinition Height="84*"/>
+            <RowDefinition Height="83*"/>
+            <RowDefinition Height="48*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Center" Grid.Row="1" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="3" HorizontalAlignment="Center" Grid.Row="1" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="4" HorizontalAlignment="Left" Grid.Row="1" Text="?" VerticalAlignment="Center" FontSize="36" Margin="47,0,0,0"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="2" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Center" Grid.Row="2" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="3" HorizontalAlignment="Center" Grid.Row="2" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="4" HorizontalAlignment="Left" Grid.Row="2" Text="?" VerticalAlignment="Center" FontSize="36" Margin="47,0,0,0"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="3" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Center" Grid.Row="3" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="3" HorizontalAlignment="Center" Grid.Row="3" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="4" HorizontalAlignment="Left" Grid.Row="3" Text="?" VerticalAlignment="Center" FontSize="36" Margin="47,0,0,0"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="4" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Center" Grid.Row="4" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="3" HorizontalAlignment="Center" Grid.Row="4" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="4" HorizontalAlignment="Left" Grid.Row="4" Text="?" VerticalAlignment="Center" FontSize="36" Margin="47,0,0,0"/>
+
+    </Grid>
+</Window>
